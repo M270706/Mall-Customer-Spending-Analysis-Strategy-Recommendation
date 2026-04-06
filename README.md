@@ -40,7 +40,7 @@ This project uses machine learning to figure out how customers spend their money
 
 ## 🚀 How to Run the Project Locally
 
-### 1. Clone the repository
+### Clone the repository
 ```bash
 git clone [https://github.com/M270706/mall-customer-segmentation.git](https://github.com/M270706/mall-customer-segmentation.git)
 cd mall-customer-segmentation
