@@ -38,7 +38,7 @@ The dashboard has three views: **At a glance**, **Compare groups**, and **Custom
 
 ## A few things I found
 
-The dataset has 200 customers and includes gender, age, annual income, and a spending score. It has no missing values or repeated customer IDs. For the analysis, I grouped scores into Low (below 40), Medium (40–69), and High (70 or above). These cutoffs make the results easier to compare; they are not established customer-value categories.
+The dataset has 200 customers and includes gender, age, annual income, and a spending score. It has no missing values or repeated customer IDs. For the analysis, I grouped scores into Low (below 40), Medium (40–69), and High (70-100). These cutoffs make the results easier to compare; they are not established customer-value categories.
 
 I compared a few models for estimating the spending score. A shallow decision tree had the lowest cross-validation MAE among the regression models I tested. On the held-out records, its MAE was 13.37 points and its R² was 0.148. The mean-prediction baseline had a test MAE of 18.67, so the tree did better on MAE in this split, but the result is still limited.
 
